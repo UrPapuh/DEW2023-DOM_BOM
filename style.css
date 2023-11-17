@@ -1,0 +1,36 @@
+:root {
+  --size: 30px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+  height: var(--size);
+  width: var(--size);
+  cursor: not-allowed;
+}
+
+span {
+  padding: 5px;
+  color: grey;
+}
+
+.free {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.player1 {
+  background-color: black;
+}
+
+.player2 {
+  background-color: white;
+}
+
+.red {
+  color: red;
+}
